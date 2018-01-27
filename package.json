@@ -1,0 +1,25 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hueyhuynh/Angular.git"
+  },
+  "author": "Phong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hueyhuynh/Angular/issues"
+  },
+  "homepage": "https://github.com/hueyhuynh/Angular#readme",
+  "devDependencies": {
+    "@angular/cli": "^1.6.6",
+    "lite-server": "^2.3.0" 
+  }
+}
