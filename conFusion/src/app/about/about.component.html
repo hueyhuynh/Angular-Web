@@ -60,7 +60,7 @@
           <h2>Corporate Leadership</h2>
           
            
-          <md-list>
+          <md-list *ngIf="leaders">
           	<md-list-item fxLayout="row" fxLayoutAlign=" center" *ngFor="let leader of leaders">
           		<img md-list-avatar height="50px" src={{leader.image}} alt={{leader.name}}>
           		
@@ -70,6 +70,8 @@
 	    		
           	</md-list-item>
           </md-list>
-   
+   <div [hidden]="leaders">
+    <md-spinner></md-spinner><h4>Loading . . . Please Wait</h4>
+  </div>
        </div>
 </div>
